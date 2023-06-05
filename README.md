@@ -6,18 +6,18 @@
 2. Escribir un programa en PHP que imprima una X construida a base de la letra X y utilizar el carácter de subrayado como espacio. El tamaño de la X se basa en una variable n que indicara el tamaño dela letra para imprimir (en una matriz de n X n) por ejemplo, para n = 5 se obtiene
 
 X__X  <br>
-_X_X_
-__X__
-_X_X_
-X___X
-Y para n = 6 se obtiene:
-X___X
-_X_X_
-__XX__
-__XX__
-_X_X_
-X___X
-Si n es igual a cero imprimir “ERROR”
+_X_X_ <br>
+__X__ <br>
+_X_X_ <br>
+X___X <br>
+Y para n = 6 se obtiene: <br>
+X___X <br>
+_X_X_ <br>
+__XX__ <br>
+__XX__ <br>
+_X_X_ <br>
+X___X <br>
+Si n es igual a cero imprimir “ERROR” <br>
 
 3. 
 

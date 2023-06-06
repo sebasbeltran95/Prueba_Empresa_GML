@@ -40,9 +40,9 @@ APPX_educationlevel(id,description) <br>
 Nota: los nombres de tabla distinguen mayúsculas de minúsculas. Escríbalos exactamente como se listen <br>
 
 
-                                        select e.firstname,e.lastname,e.salary <br>
-                                        from APPX_employee e where e.salary <br>
-                                        between 50000 and 100000  order by  e.firstname asc <br>
+                                        select e.firstname,e.lastname,e.salary
+                                        from APPX_employee e where e.salary 
+                                        between 50000 and 100000  order by  e.firstname asc
 
 
 

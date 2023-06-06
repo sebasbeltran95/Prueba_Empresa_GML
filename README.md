@@ -31,7 +31,17 @@ Su programa debe analizar el arreglo de izquierda a derecha para que en caso de 
 Longest: 3 <br>
 Number: 8 <br>
 En el ejemplo, la secuencia más larga la tiene el número 8 con una secuencia de tres ochos seguidos. Tenga en cuenta que el código que escriba debe imprimir los resultados exactamente como se muestra con el fin de que la pregunta sea considerada valida. <br>
-5. 
+
+5. Obtener utilizando una consulta SQL el nombre, apellido y salario (firstname, lastname y salary) para los empleados con un salario mayor o igual a 50.000 y menor o igual a 100.000 mostrar los resultados ordenados por nombre de forma ascendente
+Tablas: <br>
+APPX_employee(id, firstname, lastname, department_id, salary, educationlevel_id) <br>
+APPX_department(id,department_name,department_city) <br>
+APPX_educationlevel(id,description) <br>
+Nota: los nombres de tabla distinguen mayúsculas de minúsculas. Escríbalos exactamente como se listen <br>
+select e.firstname,e.lastname,e.salary <br>
+from APPX_employee e where e.salary <br>
+between 50000 and 100000  order by  e.firstname asc <br>
+
 
 
 
